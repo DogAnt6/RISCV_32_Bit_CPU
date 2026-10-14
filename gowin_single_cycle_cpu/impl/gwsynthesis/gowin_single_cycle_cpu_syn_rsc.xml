@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="RISCVCPU" Register="6" Alu="5" Lut="25" Ssram="6" T_Register="6(6)" T_Alu="13(5)" T_Lut="29(25)" T_Ssram="6(6)">
+ <SubModule name="imem" Lut="4" T_Lut="4(4)"/>
+ <SubModule name="alu" Alu="8" T_Alu="8(8)"/>
+</Module>

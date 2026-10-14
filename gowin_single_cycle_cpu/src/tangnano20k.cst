@@ -1,0 +1,19 @@
+IO_LOC "clock" 4;
+IO_PORT "clock" IO_TYPE=LVCMOS33;
+
+IO_LOC "debug_x3[0]" 15;
+IO_LOC "debug_x3[1]" 16;
+IO_LOC "debug_x3[2]" 17;
+IO_LOC "debug_x3[3]" 18;
+IO_LOC "debug_x3[4]" 19;
+IO_LOC "debug_x3[5]" 20;
+
+IO_PORT "debug_x3[0]" IO_TYPE=LVCMOS33;
+IO_PORT "debug_x3[1]" IO_TYPE=LVCMOS33;
+IO_PORT "debug_x3[2]" IO_TYPE=LVCMOS33;
+IO_PORT "debug_x3[3]" IO_TYPE=LVCMOS33;
+IO_PORT "debug_x3[4]" IO_TYPE=LVCMOS33;
+IO_PORT "debug_x3[5]" IO_TYPE=LVCMOS33;
+
+IO_LOC "reset" 88;
+IO_PORT "reset" IO_TYPE=LVCMOS33;

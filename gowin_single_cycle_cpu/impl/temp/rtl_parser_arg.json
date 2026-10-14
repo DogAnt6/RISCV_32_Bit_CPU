@@ -1,0 +1,17 @@
+{
+ "Device" : "GW2AR-18C",
+ "Files" : [
+  {
+   "Path" : "C:/Summer2026projects/CPU_RISCV/RISCV_32_Bit_CPU/single_cycle_cpu/singlecycle.sv",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Summer2026projects/CPU_RISCV/RISCV_32_Bit_CPU/gowin_single_cycle_cpu/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

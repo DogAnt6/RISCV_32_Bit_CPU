@@ -1,0 +1,185 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Summer2026projects/CPU_RISCV/RISCV_32_Bit_CPU/single_cycle_cpu
+T_opt
+!s110 1789010956
+VTFR^eL76Gc:[IIOW5PeiF0
+Z2 04 11 4 work RISCVCPU_tb fast 0
+=1-98bd808aa1a6-6aa2240b-213-3598
+Z3 !s124 OEM10U6 
+o-quiet -auto_acc_if_foreign -work work
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.2;73
+R1
+T_opt1
+!s110 1789011296
+V8kYTNjUH=DQ`J2KNNmSoh3
+R2
+=1-98bd808aa1a6-6aa22560-10e-ea74
+R3
+o-quiet -auto_acc_if_foreign -work work +acc
+R4
+n@_opt1
+R5
+vALU
+Z6 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z7 !s110 1789011098
+!i10b 1
+!s100 ]JUa^?bN]D^]X^U`Ac?VP1
+IancX4@OBAJNjeGlAmzhN01
+S1
+R1
+Z8 w1789010837
+Z9 8singlecycle.sv
+Z10 Fsinglecycle.sv
+!i122 7
+L0 282 21
+Z11 VDg1SIo80bB@j0V0VzS_@n1
+Z12 OL;L;2021.2;73
+r1
+!s85 0
+31
+Z13 !s108 1789011098.000000
+Z14 !s107 singlecycle.sv|
+Z15 !s90 -reportprogress|300|-sv|singlecycle.sv|
+!i113 0
+Z16 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+n@a@l@u
+vALUControl
+R6
+R7
+!i10b 1
+!s100 JdhT6YcPFO6C=AOebDzj40
+I[hMb755E:lmdLSHTGWl_h2
+S1
+R1
+R8
+R9
+R10
+!i122 7
+L0 223 58
+R11
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R4
+n@a@l@u@control
+vdata_memory
+R6
+R7
+!i10b 1
+!s100 YhL0AGiozd>2IAWZn95:01
+I0U0d^W`AfQHG9_]BnFji=0
+S1
+R1
+R8
+R9
+R10
+!i122 7
+L0 200 22
+R11
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R4
+vinstruction_memory
+R6
+R7
+!i10b 1
+!s100 1N^k7BEH17182WMR^L8K23
+I^R_Ylz9kXLfKdk;;TW^4g0
+S1
+R1
+R8
+R9
+R10
+!i122 7
+L0 177 22
+R11
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R4
+vRISCVCPU
+R6
+R7
+!i10b 1
+!s100 ]1QMXS`Fn@kGfRWPgDZ202
+I38^3V=3W4Wk_@hB^e3?lH0
+S1
+R1
+R8
+R9
+R10
+!i122 7
+L0 1 175
+R11
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R4
+n@r@i@s@c@v@c@p@u
+vRISCVCPU_tb
+R6
+!s110 1789011112
+!i10b 1
+!s100 e;UDA`DIcC1@52o`:B?<K2
+ILfU3`[4CnUJRO`FP5ll3a2
+S1
+R1
+w1789010834
+8riscv_tb_single.sv
+Friscv_tb_single.sv
+!i122 8
+L0 3 290
+R11
+R12
+r1
+!s85 0
+31
+!s108 1789011112.000000
+!s107 riscv_tb_single.sv|
+!s90 -reportprogress|300|-sv|riscv_tb_single.sv|
+!i113 0
+R16
+R4
+n@r@i@s@c@v@c@p@u_tb
