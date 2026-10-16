@@ -12,7 +12,7 @@
     "InstLine" : 43,
     "InstName" : "imem",
     "ModuleFile" : "C:/Summer2026projects/CPU_RISCV/RISCV_32_Bit_CPU/single_cycle_cpu/singlecycle.sv",
-    "ModuleLine" : 177,
+    "ModuleLine" : 175,
     "ModuleName" : "instruction_memory"
    },
    {
@@ -20,23 +20,23 @@
     "InstLine" : 48,
     "InstName" : "dmem",
     "ModuleFile" : "C:/Summer2026projects/CPU_RISCV/RISCV_32_Bit_CPU/single_cycle_cpu/singlecycle.sv",
-    "ModuleLine" : 200,
+    "ModuleLine" : 291,
     "ModuleName" : "data_memory"
    },
    {
     "InstFile" : "C:/Summer2026projects/CPU_RISCV/RISCV_32_Bit_CPU/single_cycle_cpu/singlecycle.sv",
-    "InstLine" : 83,
+    "InstLine" : 82,
     "InstName" : "alu",
     "ModuleFile" : "C:/Summer2026projects/CPU_RISCV/RISCV_32_Bit_CPU/single_cycle_cpu/singlecycle.sv",
-    "ModuleLine" : 282,
+    "ModuleLine" : 398,
     "ModuleName" : "ALU"
    },
    {
     "InstFile" : "C:/Summer2026projects/CPU_RISCV/RISCV_32_Bit_CPU/single_cycle_cpu/singlecycle.sv",
-    "InstLine" : 91,
+    "InstLine" : 90,
     "InstName" : "aluControl",
     "ModuleFile" : "C:/Summer2026projects/CPU_RISCV/RISCV_32_Bit_CPU/single_cycle_cpu/singlecycle.sv",
-    "ModuleLine" : 223,
+    "ModuleLine" : 339,
     "ModuleName" : "ALUControl"
    }
   ]

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Module name="RISCVCPU" Register="6" Alu="5" Lut="25" Ssram="6" T_Register="6(6)" T_Alu="13(5)" T_Lut="29(25)" T_Ssram="6(6)">
- <SubModule name="imem" Lut="4" T_Lut="4(4)"/>
- <SubModule name="alu" Alu="8" T_Alu="8(8)"/>
+<Module name="RISCVCPU" Register="26" Alu="8" Lut="484" Ssram="40" T_Register="32(26)" T_Alu="72(8)" T_Lut="1670(484)" T_Bsram="1(0)" T_Ssram="552(40)">
+ <SubModule name="imem" Lut="15" Bsram="1" T_Lut="15(15)" T_Bsram="1(1)"/>
+ <SubModule name="dmem" Register="6" Lut="1035" Ssram="512" T_Register="6(6)" T_Lut="1035(1035)" T_Ssram="512(512)"/>
+ <SubModule name="alu" Alu="64" Lut="136" T_Alu="64(64)" T_Lut="136(136)"/>
 </Module>

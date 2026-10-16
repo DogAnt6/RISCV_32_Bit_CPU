@@ -83,7 +83,7 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 </tr>
 <tr>
 <td class="label">Created Time</td>
-<td>Thu Sep 10 01:45:25 2026
+<td>Fri Oct 16 05:15:15 2026
 </td>
 </tr>
 <tr>
@@ -97,24 +97,24 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <tr>
 <td class="label">Place & Route Process</td>
 <td>Running placement:
-   Placement Phase 0: CPU time = 0h 0m 0.003s, Elapsed time = 0h 0m 0.003s
-   Placement Phase 1: CPU time = 0h 0m 0.164s, Elapsed time = 0h 0m 0.164s
-   Placement Phase 2: CPU time = 0h 0m 0.004s, Elapsed time = 0h 0m 0.004s
-   Placement Phase 3: CPU time = 0h 0m 0.44s, Elapsed time = 0h 0m 0.439s
-   Total Placement: CPU time = 0h 0m 0.611s, Elapsed time = 0h 0m 0.61s
+   Placement Phase 0: CPU time = 0h 0m 0.152s, Elapsed time = 0h 0m 0.152s
+   Placement Phase 1: CPU time = 0h 0m 0.174s, Elapsed time = 0h 0m 0.173s
+   Placement Phase 2: CPU time = 0h 0m 0.324s, Elapsed time = 0h 0m 0.324s
+   Placement Phase 3: CPU time = 0h 0m 2s, Elapsed time = 0h 0m 2s
+   Total Placement: CPU time = 0h 0m 2s, Elapsed time = 0h 0m 2s
 Running routing:
-   Routing Phase 0: CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0s
-   Routing Phase 1: CPU time = 0h 0m 0.096s, Elapsed time = 0h 0m 0.096s
-   Routing Phase 2: CPU time = 0h 0m 0.133s, Elapsed time = 0h 0m 0.133s
+   Routing Phase 0: CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0.001s
+   Routing Phase 1: CPU time = 0h 0m 0.131s, Elapsed time = 0h 0m 0.131s
+   Routing Phase 2: CPU time = 0h 0m 7s, Elapsed time = 0h 0m 7s
    Routing Phase 3: CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0s
-   Total Routing: CPU time = 0h 0m 0.229s, Elapsed time = 0h 0m 0.229s
+   Total Routing: CPU time = 0h 0m 7s, Elapsed time = 0h 0m 7s
 Generate output files:
-   CPU time = 0h 0m 1s, Elapsed time = 0h 0m 1s
+   CPU time = 0h 0m 3s, Elapsed time = 0h 0m 3s
 </td>
 </tr>
 <tr>
 <td class="label">Total Time and Memory Usage</td>
-<td>CPU time = 0h 0m 2s, Elapsed time = 0h 0m 2s, Peak memory usage = 438MB</td>
+<td>CPU time = 0h 0m 12s, Elapsed time = 0h 0m 12s, Peak memory usage = 448MB</td>
 </tr>
 </table>
 <br/>
@@ -129,22 +129,22 @@ Generate output files:
 </tr>
 <tr>
 <td class="label">Logic</td>
-<td>80/20736</td>
-<td><1%</td>
+<td>5057/20736</td>
+<td>25%</td>
 </tr>
 <tr>
 <td class="label">&nbsp &nbsp --LUT,ALU,ROM16</td>
-<td>44(29 LUT, 15 ALU, 0 ROM16)</td>
+<td>1745(1670 LUT, 75 ALU, 0 ROM16)</td>
 <td>-</td>
 </tr>
 <tr>
 <td class="label">&nbsp &nbsp --SSRAM(RAM16)</td>
-<td>6</td>
+<td>552</td>
 <td>-</td>
 </tr>
 <tr>
 <td class="label">Register</td>
-<td>6/15750</td>
+<td>32/15750</td>
 <td><1%</td>
 </tr>
 <tr>
@@ -154,7 +154,7 @@ Generate output files:
 </tr>
 <tr>
 <td class="label">&nbsp &nbsp --Logic Register as FF</td>
-<td>6/15552</td>
+<td>32/15552</td>
 <td><1%</td>
 </tr>
 <tr>
@@ -169,8 +169,8 @@ Generate output files:
 </tr>
 <tr>
 <td class="label">CLS</td>
-<td>44/10368</td>
-<td><1%</td>
+<td>2602/10368</td>
+<td>26%</td>
 </tr>
 <tr>
 <td class="label">I/O Port</td>
@@ -196,6 +196,11 @@ Generate output files:
 <td class="label"> &nbsp &nbsp --Inout Buf</td>
 <td>0</td>
 <td>-</td>
+</tr>
+<tr>
+<td class="label">BSRAM</td>
+<td>1 pROM<br/></td>
+<td>3%</td>
 </tr>
 </table>
 <h2><a name="I/O_Bank_Usage_Summary">I/O Bank Usage Summary:</a></h2>
@@ -272,7 +277,7 @@ Generate output files:
 <tr>
 <td class="label">clock_d</td>
 <td>PRIMARY</td>
-<td> TR TL</td>
+<td> TR TL BR BL</td>
 </tr>
 </table>
 <br/>
